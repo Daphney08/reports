@@ -331,7 +331,6 @@
                 }
             }
         });
-
           // Line chart 
         var myChart = new Chart(document.getElementById('bypromotion').getContext('2d'), {
             type: 'pie',
@@ -370,7 +369,6 @@
                 }
             }
         });
-
         var myChart = new Chart(document.getElementById('byyear').getContext('2d'), {
             type: 'bar',
             data: {
